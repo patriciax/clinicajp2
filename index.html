@@ -1,745 +1,728 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Title -->
+  <head>
+      <!-- Title -->
     <title>Cl&iacute;nica Juan Pablo II Santiago de Chile</title>
 
     <!-- Favicon-->
-    <link rel="icon" href="./img/core-img/favicon.ico">
+    <link rel="icon" href="./images/favicon.ico">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
 
-</head>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-<body>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="loader"></div>
-    </div>
-    <!-- /Preloader -->
+    <link rel="stylesheet" href="css/aos.css">
 
-    <!-- Header Area Start -->
-    <header class="header-area">
-        <!-- Search Form -->
-        <div class="search-form d-flex align-items-center">
-            <div class="container">
-                <form action="index.html" method="get">
-                    <input type="search" name="search-form-input" id="searchFormInput" placeholder="buscar">
-                    <button type="submit"><i class="icon_search"></i></button>
-                </form>
-            </div>
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt=""></a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Inicio</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>Sobre nosotros</span></a></li>
+	        
+	          <li class="nav-item"><a href="#attorneys-section" class="nav-link"><span>Maternidad</span></a></li>
+	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contacto</span></a></li>
+	          <li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalAppointment">Agende una hora</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+	  <section class="hero-wrap js-fullheight" style="background-image: url('https://img.vixdata.io/pd/jpg-large/es/sites/default/files/imj/vivirsalud/9/91785538.jpg'); background-size: contain;" data-section="home">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+          <div class="col-md-6 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">El uso de mascarillas es obligatorio</h1>
+            <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Por disposición de la autoridad sanitaria.</p>
+            <p><a href="#" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#modalAppointment">Agende una hora</a></p>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Top Header Area Start -->
-        <div class="top-header-area">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-6">
-                        <div class="top-header-content">
-                            <a href="#"><i class="icon_phone"></i> <span>+562 24835100</span></a>
-                            <a href="#"><i class="icon_phone"></i> <span>+569 99203418 </span></a>
-                        </div>
-                    </div>
-
-                    <div class="col-6">
-                        <div class="top-header-content">
-                            <!-- Top Social Area -->
-                            <div class="top-social-area ml-auto">
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+    <section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb img" id="section-counter">
+    	<div class="container">
+    		<div class="row d-md-flex align-items-center justify-content-end">
+    			<div class="col-lg-12">
+    				<div class="ftco-counter-wrap">
+	    			<div class="row no-gutters d-md-flex align-items-center align-items-stretch">
+					  <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate img-acion"  style="background-image: url('./images/images.jpg');">
+					
+			            <div class="block-18">
+			              <div class="text text-acion ">
+			            
+			             
+			                <span>Pad de fonasa</span>
+			              </div>
+						</div>
+						<div class="overlay-acion"></div>
+			          </div>
+			          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate img-acion"  style="background-image: url('./images/reciennacido_0.jpg');">
+			            <div class="block-18">
+			              <div class="text text-acion ">
+			              
+			                <span>Búscame</span>
+			              </div>
+						</div>
+						<div class="overlay-acion overlay-accion"></div>
+			          </div>
+			          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate img-acion" style="background-image: url('./images/presupuesto.jpg');">
+			            <div class="block-18">
+			              <div class="text text-acion ">
+			              
+			                <span>Solicita presupuesto</span>
+			              </div>
+						</div>
+						<div class="overlay-acion"></div>
+			          </div>
+			          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate img-acion" style="background-image: url('./images/cirugia.jpg');">
+			            <div class="block-18">
+			              <div class="text text-acion ">
+			            
+			                <span>Cirugía plastica</span>
+			              </div>
+						</div>
+						<div class="overlay-acion overlay-accion"></div>
+			          </div>
+		          </div>
+		        </div>
+          </div>
         </div>
-        <!-- Top Header Area End -->
+    	</div>
+    </section>
 
-        <!-- Main Header Start -->
-        <div class="main-header-area">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Classy Menu -->
-                    <nav class="classy-navbar justify-content-between" id="robertoNav">
-
-                        <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-                            <!-- Menu Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul id="nav">
-                                    <li class="active"><a href="./index.html">Home</a></li>
-                                   
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="./index.html">- Inicio</a></li>
-                                         
-                                            <li><a href="./single-room.html">- Single Rooms</a></li>
-                                            <li><a href="./about.html">- About Us</a></li>
-                                            <li><a href="./blog.html">- Blog</a></li>
-                                            <li><a href="./single-blog.html">- Single Blog</a></li>
-                                            <li><a href="./contact.html">- Contact</a></li>
-                                            <li><a href="#">- Dropdown</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                    <li><a href="#">- Dropdown Item</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                              
-                                    <li><a href="./contact.html">Contact</a></li>
-                                </ul>
-
-                                <!-- Search 
-                                <div class="search-btn ml-4">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </div>-->
-
-                                <!-- Book Now -->
-                                <div class="book-now-btn ml-3 ml-lg-5">
-                                    <a href="#">Agendar hora <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
+    <section class="ftco-about ftco-no-pt ftco-no-pb img ftco-section bg-light" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-6 d-flex order-md-last">
+    				<div class="img-about img d-flex align-items-stretch">
+	    				<div class="img d-flex align-self-stretch align-items-end" style="background-image:url(images/banner_pad.jpg);    background-position: 26%;">
+	    					<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">
+	    						<span class="ion-ios-play play mr-2"></span>
+	    						<span class="watch">Saber más sobre la clínica</span>
+	    					</a>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pr-lg-5 py-3 py-lg-5">
+    				<div class="row justify-content-start py-3 py-lg-5">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          <!--	<span class="subheading">Welcome</span>--->
+		            <h2 class="mb-4" style="font-size: 44px; text-transform: capitalize;">Más de 150.000 pacientes atendidos en 35 años, nos avalan</h2>
+		            <p><span class="subheading">Nuestra Misión</span>Es entregar una atención de salud en un ambiente de seguridad, excelencia en el servicio y a un precio razonable.   Clínica Juan Pablo II, es una institución orientada, a la salud de la familia, buscando excelencia en el servicio al mejor precio, haciendo énfasis en la calidad de la atención.</p>
+		       
+		          </div>
+		        </div>
+	        </div>
         </div>
-    </header>
-    <!-- Header Area End -->
+    	</div>
+    </section>
 
-    <!-- Welcome Area Start -->
-    <section class="welcome-area">
-        <div class="welcome-slides owl-carousel">
-            <!-- Single Welcome Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(https://estaticos.elperiodico.com/resources/jpg/1/6/mascarilla-1587312814561.jpg);" data-img-url="https://estaticos.elperiodico.com/resources/jpg/1/6/mascarilla-1587312814561.jpg">
-                <!-- Welcome Content -->
-                <div class="welcome-content h-100">
-                    <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <!-- Welcome Text -->
-                            <div class="col-12">
-                                <div class="welcome-text text-center">
-                                    <h6 data-animation="fadeInLeft" data-delay="200ms">Por disposición de la autoridad sanitaria</h6>
-                                    <h2 data-animation="fadeInLeft" data-delay="500ms">El uso de mascarillas es obligatorio</h2>
-                               
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="ftco-about ftco-no-pt ftco-no-pb img ftco-section bg-light">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+	    				<div class="img d-flex align-self-stretch align-items-end" style="background-image:url(images/servicio2.jpg);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-lg-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate pb-5">
+		         
+		            <h2 class="mb-4" style="font-size: 44px; text-transform: capitalize;">Centros Médicos relacionados
+					</h2>
+
+					<p>Clínica Juan Pablo II mantiene una alianza con diferentes Centros Médicos, donde usted podrá consultar para resolver sus problemas de salud. En caso de que requiera de una cirugía consulte con su médico en su centro y cotice con nosotros..</p>
+					<ul>
+						<li>Centro Médico Maipo Salud
+					  </li>
+					  <li>	Centro Médico Israelita
+					  </li>
+					  <li>	Centro Médico Caja La Araucana
+					  </li>
+					  <li>	Centros Médicos La Estrella</li>
+					</ul>
+		          </div>
+		          <div class="col-md-12 testimony-section">
+					  <!--------AGREGAR CAROSEL-TESTIMONY PARA EL CARUSEL DE -->
+								<div class="owl-carousel carousel-testimon">
+									<div class="item">
+										<div class="testimony-wrap">
+				          		<div class="text mb-5">
+				          			<div class="icon">
+				          				<span class="icon-quote-left"></span>
+				          			</div>
+									  <p>Clínica Juan Pablo II mantiene una alianza con diferentes Centros Médicos, donde usted podrá consultar para resolver sus problemas de salud. En caso de que requiera de una cirugía consulte con su médico en su centro y cotice con nosotros..</p>
+									
+				          		</div>
+				          		<div class="d-flex">
+				          			<div class="user-img img mr-3" style="background-image: url(images/person_1.jpg);"></div>
+				          			<div>
+				          				<p class="name mb-0">Luis Fox</p>
+			                    <span class="position">Businessman</span>
+				          			</div>
+				          		</div>
+				          	</div>
+									</div>
+									<!--<div class="item">
+										<div class="testimony-wrap">
+				          		<div class="text mb-5">
+				          			<div class="icon">
+				          				<span class="icon-quote-left"></span>
+				          			</div>
+				          			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+				          		</div>
+				          		<div class="d-flex">
+				          			<div class="user-img img mr-3" style="background-image: url(images/person_2.jpg);"></div>
+				          			<div>
+				          				<p class="name mb-0">Luis Fox</p>
+			                    <span class="position">Businessman</span>
+				          			</div>
+				          		</div>
+				          	</div>
+									</div>
+									<div class="item">
+										<div class="testimony-wrap">
+				          		<div class="text mb-5">
+				          			<div class="icon">
+				          				<span class="icon-quote-left"></span>
+				          			</div>
+				          			<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+				          		</div>
+				          		<div class="d-flex">
+				          			<div class="user-img img mr-3" style="background-image: url(images/person_3.jpg);"></div>
+				          			<div>
+				          				<p class="name mb-0">Luis Fox</p>
+			                    <span class="position">Businessman</span>
+				          			</div>
+				          		</div>
+				          	</div>
+									</div>-->
+								</div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb ftco-services" id="practice-section">
+      <div class="container">
+      	<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Nacer en Clínica Juan Pablo II</span>
+            <h2 class="mb-4">Maternidad y Embarazo</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-5 col-lg-4 ftco-animate py-4 nav-link-wrap">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link px-4 py-1 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><span class="mr-3 flaticon-ideas"></span> Nacer en Clínica Juan Pablo II</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-3 flaticon-flasks"></span> Recién Nacidos</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-3 flaticon-analysis"></span> Solicite su presupuesto</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-web-design"></span> Fotos de los Recien Nacidos</a>
+
+
+              <a class="nav-link px-4 py-1" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-3 flaticon-innovation"></span> Etapas del Embarazo</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false"><span class="mr-3 flaticon-idea"></span> ¿Escucha Bien mi hijo?</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Consejos para padres</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-8-tab" data-toggle="pill" href="#v-pills-8" role="tab" aria-controls="v-pills-8" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Consejos para su Hospitalización</a>
+
+             <!--- <a class="nav-link px-4 py-1" id="v-pills-9-tab" data-toggle="pill" href="#v-pills-9" role="tab" aria-controls="v-pills-9" aria-selected="false"><span class="mr-3 flaticon-idea"></span> Sexual Offenses</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab" aria-controls="v-pills-10" aria-selected="false"><span class="mr-3 flaticon-ux-design"></span> Property Law</a>---->
             </div>
+          </div>
+          <div class="col-md-7 col-lg-8 ftco-animate p-4 d-flex align-items-center">
+            
+            <div class="tab-content " id="v-pills-tabContent">
 
-            <!-- Single Welcome Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(https://2.bp.blogspot.com/-fi3060_XnAA/VGGDk4KjguI/AAAAAAAAFPA/CbuDzy0rpNo/s1600/PanoramicaQuirofanoAzul2.jpg);" data-img-url="https://2.bp.blogspot.com/-fi3060_XnAA/VGGDk4KjguI/AAAAAAAAFPA/CbuDzy0rpNo/s1600/PanoramicaQuirofanoAzul2.jpg">
-                <!-- Welcome Content -->
-                <div class="welcome-content h-100">
-                    <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <!-- Welcome Text -->
-                            <div class="col-12">
-                                <div class="welcome-text text-center">
-                                    <h6 data-animation="fadeInLeft" data-delay="200ms">Junto a un gran grupo tecnico</h6>
-                                    <h2 data-animation="fadeInLeft" data-delay="500ms">Modernos pabellones</h2>
-                                   <!--  <a href="#" class="btn roberto-btn btn-2" data-animation="fadeInUp" data-delay="800ms">Discover Now</a> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <div class="tab-pane fade show active py-0 py-lg-5" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-family"></span>
+		              </div>
+		              <div class="text">
+		                <h2 class="mb-4">Comodidad para nuestros pacientes:
+						</h2>
+		                <p>¡Mamá al fin llegué!, por que sabemos que lo más importante para ti es tu hijo, en Clínica Juan Pablo II queremos compartir la alegría de ser mama y para esto ponemos a tu disposición toda nuestra experiencia y calidad humana para el día de su nacimiento.</p>
+		                <p>La Maternidad cuenta con cómodas habitaciones que sumadas a su personal cálido y profesional entregan a la futura mamá y su familia la mejor atención durante su este periodo tan importante en su vida.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Ver más</a></p>
+	                </div>
                 </div>
-            </div>
+              </div>
 
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-auction"></span>
+		              </div>
+		              <div class="text">
+		                <h2 class="mb-4">Business Law</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-shield"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Insurance Law</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-handcuffs"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Criminal Law</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-employee"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Employment Law</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-fire"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Fire Accident</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-money"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Financial Law</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-8" role="tabpanel" aria-labelledby="v-pills-8-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-medicine"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Drug Offenses</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-9" role="tabpanel" aria-labelledby="v-pills-9-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-handcuffs"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Sexual Offenses</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-10-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-house"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Property Law</h2>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+		                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+		                <p><a href="#" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+ 
+
+    <section class="ftco-section" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center mt-5 pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <span class="subheading">Blog</span>
+            <h2 class="mb">Nuestro blog</h2>
+        
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+          		<div class="text">
+          			<h3 class="heading"><a href="single.html">Escucha bien tu hijo?</a></h3>
+          		</div>
+              <a href="single.html" class="block-20" style="background-image: url('images/bebe.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <p>2 a 5* de cada 1000 recien nacidos presenta problemasde sordera que, lamentablemente se diagnosticantard amente. con el avance de la ciencia podemosdeterminar si su hijo(a) escucha...</p>
+                <div class="d-flex align-items-center mt-4 meta">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Leer más <span class="ion-ios-arrow-round-forward"></span></a></p>
+	                <p class="ml-auto mb-0">
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+          		<div class="text">
+          			<h3 class="heading"><a href="single.html">Fundada en Septiembre de 1983</a></h3>
+          		</div>
+              <a href="single.html" class="block-20" style="background-image: url('images/banner_pad.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <p>La Clinica Juan Pablo II, es una institucion orientada a la salud de la familia buscando excelencia en el servicio a un costo razonable....</p>
+                <div class="d-flex align-items-center mt-4 meta">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Leer más<span class="ion-ios-arrow-round-forward"></span></a></p>
+	                <p class="ml-auto mb-0">
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+				<div class="text">
+					<h3 class="heading"><a href="single.html">Cirugia plastica?</a></h3>
+				</div>
+			<a href="single.html" class="block-20" style="background-image: url('images/cirugia.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+			  <p>2 a 5* de cada 1000 recien nacidos presenta problemasde sordera que, lamentablemente se diagnosticantard amente. con el avance de la ciencia podemosdeterminar si su hijo(a) escucha...</p>
+			  <div class="d-flex align-items-center mt-4 meta">
+				  <p class="mb-0"><a href="#" class="btn btn-primary">Leer más <span class="ion-ios-arrow-round-forward"></span></a></p>
+				  <p class="ml-auto mb-0">
+					  <a href="#" class="mr-2">Admin</a>
+					  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+				  </p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-no-pb bg-light" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <span class="subheading">Contact</span>
+            <h2 class="mb-4">Contacto</h2>
+            <p>Porque su opinión es importante para nosotros, lo invitamos a darnos a conocer sus reclamos, sugerencias, felicitaciones o cualquier opinión que le parezca importante, a través de esta vía, o en los libros de sugerencia que encontrará en los distintos servicios de la clínica.</p>
+          </div>
+        </div>
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Santa Rosa 1448,
+					Metro Estación Matta, L3, Stgo. - Chile</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Mesa Central:</h3>
+	            <p><a href="tel://1234567920"> +562 24835100</a></p>
+	          </div>
+          </div>
+		  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			<div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+					<span class="icon-phone2"></span>
+				</div>
+				<h3 class="mb-4">Cuentas Médicas:</h3>
+			  <p><a href="tel://1234567920"> +569 99203418</a></p>
+			</div>
+		</div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Ver Mapa de Ubicación</h3>
+	            <p><a href="#"></a></p>
+	          </div>
+          </div>
+        </div>
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="#" class="bg-primary p-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nombre del paciente">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+                <input type="text" class="form-control" placeholder="telefono">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Comentario"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-darken py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+			  <div id="ma" class="bg-white img-contact"  style="background-image: url('https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80');">
+			<div class="overlay-contact">
+				<a href="#" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#modalAppointment">EN CASO DE RECLAMO </a>
+				<a href="#" class="btn btn-primary py-3 px-4 ver" data-toggle="modal" data-target="#modalAppointment">VERIFICAR HORA</a>
+				<a href="#" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#modalAppointment">AGENDA UNA HORA</a>
+
+			</div>
+			</div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2"><img src="./images/logo-foot.png" alt=""></h2>
+              <!---------<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>---->
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Inicio</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Sobre nosotros</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Maternidad</a></li>
+             
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Blog</a></li>
+          
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget">
+              <h2 class="ftco-heading-2">Especialidades</h2>
+              <ul class="list-unstyled">
+				
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Anestesiología</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Ginecología</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Oncológica</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Pediatría</a></li>
+  
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget ">
+            	<h2 class="ftco-heading-2">Tienes alguna pregunta?</h2>
+            	<div class="block-23 mb-0">
+	              <ul>
+					
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">	Mesa Central: +562 24835100</span></a></li>
+					<li><a href="#"><span class="icon icon-phone"></span><span class="text">	Cuentas Médicas: +569 99203418</span></a></li>
+
+					<li><a href="#"><span class="icon icon-phone"></span><span class="text">	
+						Admisión: +569 65779979</span></a></li>
+
+	              </ul>
+	            </div>
+	           <!------ <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>---->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script>Todos los derechos reservados CLÍNICA JUAN PABLO II</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <!-- Modal -->
+    <div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label for="appointment_name" class="text-black">Full Name</label>
+                <input type="text" class="form-control" id="appointment_name">
+              </div>
+              <div class="form-group">
+                <label for="appointment_email" class="text-black">Email</label>
+                <input type="text" class="form-control" id="appointment_email">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="appointment_date" class="text-black">Date</label>
+                    <input type="text" class="form-control" id="appointment_date">
+                  </div>    
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="appointment_time" class="text-black">Time</label>
+                    <input type="text" class="form-control" id="appointment_time">
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="form-group">
+                <label for="appointment_message" class="text-black">Message</label>
+                <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
           
         </div>
-    </section>
-    <!-- Welcome Area End -->
-
-    <!-- About Us Area Start -->
-    <section class="roberto-about-area section-padding-100-0">
-        <!-- Hotel Search Form Area -->
-        <div class="hotel-search-form-area">
-            <div class="container-fluid">
-                <div class="hotel-search-form">
-                  <div class="item">
-                      <img src="img/core-img/date.png" alt="">
-                      <p>Agendar hora</p>
-                  </div>
-             
-                <div class="item">
-                    <img src="img/core-img/file.png" alt="">
-                      <p>Verificar hora</p>
-                </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container mt-100">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
-                    <!-- Section Heading -->
-                    <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
-                        <h6>About Us</h6>
-                        <h2>Welcome to <br>Roberto Hotel Luxury</h2>
-                    </div>
-                    <div class="about-us-content mb-100">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms">With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for a perfect stay no matter where your destination.</h5>
-                        <p class="wow fadeInUp" data-wow-delay="400ms">Manager: <span>Michen Taylor</span></p>
-                        <img src="img/core-img/signature.png" alt="" class="wow fadeInUp" data-wow-delay="500ms">
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="about-us-thumbnail mb-100 wow fadeInUp" data-wow-delay="700ms">
-                        <div class="row no-gutters">
-                            <div class="col-6">
-                                <div class="single-thumb">
-                                    <img src="img/bg-img/13.jpg" alt="">
-                                </div>
-                                <div class="single-thumb">
-                                    <img src="img/bg-img/14.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="single-thumb">
-                                    <img src="img/bg-img/15.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Us Area End -->
-
-    <!-- Service Area Start -->
-    <div class="roberto-service-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="service-content d-flex align-items-center justify-content-between">
-                        <!-- Single Service Area -->
-                        <div class="single-service--area mb-100 wow fadeInUp" data-wow-delay="100ms">
-                            <img src="img/core-img/icon-1.png" alt="">
-                            <h5>Transportion</h5>
-                        </div>
-
-                        <!-- Single Service Area -->
-                        <div class="single-service--area mb-100 wow fadeInUp" data-wow-delay="300ms">
-                            <img src="img/core-img/icon-2.png" alt="">
-                            <h5>Reiseservice</h5>
-                        </div>
-
-                        <!-- Single Service Area -->
-                        <div class="single-service--area mb-100 wow fadeInUp" data-wow-delay="500ms">
-                            <img src="img/core-img/icon-3.png" alt="">
-                            <h5>Spa Relaxtion</h5>
-                        </div>
-
-                        <!-- Single Service Area -->
-                        <div class="single-service--area mb-100 wow fadeInUp" data-wow-delay="700ms">
-                            <img src="img/core-img/icon-4.png" alt="">
-                            <h5>Restaurant</h5>
-                        </div>
-
-                        <!-- Single Service Area -->
-                        <div class="single-service--area mb-100 wow fadeInUp" data-wow-delay="900ms">
-                            <img src="img/core-img/icon-1.png" alt="">
-                            <h5>Bar &amp; Drink</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- Service Area End -->
 
-    <!-- Our Room Area Start -->
-    <section class="roberto-rooms-area">
-        <div class="rooms-slides owl-carousel">
-            <!-- Single Room Slide -->
-            <div class="single-room-slide d-flex align-items-center">
-                <!-- Thumbnail -->
-                <div class="room-thumbnail h-100 bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
 
-                <!-- Content -->
-                <div class="room-content">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Premium King Room</h2>
-                    <h3 data-animation="fadeInUp" data-delay="300ms">400$ <span>/ Day</span></h3>
-                    <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 30 ft</span></li>
-                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 5</span></li>
-                        <li><span><i class="fa fa-check"></i> Bed</span> <span>: King Beds</span></li>
-                        <li><span><i class="fa fa-check"></i> Services</span> <span>: Wifi, Television, Bathroom</span></li>
-                    </ul>
-                    <a href="#" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
-                </div>
-            </div>
-
-            <!-- Single Room Slide -->
-            <div class="single-room-slide d-flex align-items-center">
-                <!-- Thumbnail -->
-                <div class="room-thumbnail h-100 bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
-
-                <!-- Content -->
-                <div class="room-content">
-                    <h2 data-animation="fadeInUp" data-delay="100ms">Best King Room</h2>
-                    <h3 data-animation="fadeInUp" data-delay="300ms">125$ <span>/ Day</span></h3>
-                    <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                        <li><span><i class="fa fa-check"></i> Size</span> <span>: 30 ft</span></li>
-                        <li><span><i class="fa fa-check"></i> Capacity</span> <span>: Max persion 5</span></li>
-                        <li><span><i class="fa fa-check"></i> Bed</span> <span>: King Beds</span></li>
-                        <li><span><i class="fa fa-check"></i> Services</span> <span>: Wifi, Television, Bathroom</span></li>
-                    </ul>
-                    <a href="#" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">View Details</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Our Room Area End -->
-
-    <!-- Testimonials Area Start -->
-    <section class="roberto-testimonials-area section-padding-100-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <div class="testimonial-thumbnail owl-carousel mb-100">
-                        <img src="img/bg-img/10.jpg" alt="">
-                        <img src="img/bg-img/11.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <!-- Section Heading -->
-                    <div class="section-heading">
-                        <h6>Testimonials</h6>
-                        <h2>Our Guests Love Us</h2>
-                    </div>
-                    <!-- Testimonial Slide -->
-                    <div class="testimonial-slides owl-carousel mb-100">
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <h5>“This can be achieved by applying search engine optimization or popularly known as SEO. This is a marketing strategy which increases the quality and quantity of traffic flow to a particular website via search engines.”</h5>
-                            <div class="rating-title">
-                                <div class="rating">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <h6>Robert Downey <span>- CEO Deercreative</span></h6>
-                            </div>
-                        </div>
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <h5>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus delectus facilis molestias, error vitae praesentium quos eaque qui ea, tempore blanditiis sint reprehenderit, quaerat. Commodi ab architecto sit suscipit exercitationem!”</h5>
-                            <div class="rating-title">
-                                <div class="rating">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <h6>Akash Downey <span>- CEO Deercreative</span></h6>
-                            </div>
-                        </div>
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <h5>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ex quos. Alias a rem maiores, possimus dicta sit distinctio quis iusto!”</h5>
-                            <div class="rating-title">
-                                <div class="rating">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <h6>Downey Sarah <span>- CEO Deercreative</span></h6>
-                            </div>
-                        </div>
-
-                        <!-- Single Testimonial Slide -->
-                        <div class="single-testimonial-slide">
-                            <h5>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore sequi laboriosam fugit suscipit aspernatur, minima minus voluptatum, id ab atque similique ex earum. Magni.”</h5>
-                            <div class="rating-title">
-                                <div class="rating">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <h6>Robert Brown <span>- CEO Deercreative</span></h6>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonials Area End -->
-
-    <!-- Projects Area Start -->
-    <section class="roberto-project-area">
-        <!-- Projects Slide -->
-        <div class="projects-slides owl-carousel">
-            <!-- Single Project Slide -->
-            <div class="single-project-slide active bg-img" style="background-image: url(img/bg-img/5.jpg);">
-                <!-- Project Text -->
-                <div class="project-content">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                    </div>
-                </div>
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and confident...</p>
-                    </div>
-                    <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-            <!-- Single Project Slide -->
-            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/6.jpg);">
-                <!-- Project Text -->
-                <div class="project-content">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                    </div>
-                </div>
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and confident...</p>
-                    </div>
-                    <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-            <!-- Single Project Slide -->
-            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/7.jpg);">
-                <!-- Project Text -->
-                <div class="project-content">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                    </div>
-                </div>
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and confident...</p>
-                    </div>
-                    <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-            <!-- Single Project Slide -->
-            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/8.jpg);">
-                <!-- Project Text -->
-                <div class="project-content">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                    </div>
-                </div>
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and confident...</p>
-                    </div>
-                    <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-            <!-- Single Project Slide -->
-            <div class="single-project-slide bg-img" style="background-image: url(img/bg-img/9.jpg);">
-                <!-- Project Text -->
-                <div class="project-content">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                    </div>
-                </div>
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <div class="text">
-                        <h6>Entertaiment</h6>
-                        <h5>Racing Bike</h5>
-                        <p>I focus a lot on helping the first time or inexperienced traveler head out prepared and confident...</p>
-                    </div>
-                    <a href="#" class="btn project-btn">Discover Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Projects Area End -->
-
-    <!-- Blog Area Start -->
-    <section class="roberto-blog-area section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <!-- Section Heading -->
-                <div class="col-12">
-                    <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
-                        <h6>Our Blog</h6>
-                        <h2>Latest News &amp; Event</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <!-- Single Post Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/2.jpg" alt=""></a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a href="#" class="post-date">Jan 02, 2019</a>
-                            <a href="#" class="post-catagory">Event</a>
-                        </div>
-                        <!-- Post Title -->
-                        <a href="#" class="post-title">Learn How To Motivate Yourself</a>
-                        <p>How many free autoresponders have you tried? And how many emails did you get through using them?</p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Post Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area mb-100 wow fadeInUp" data-wow-delay="500ms">
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/3.jpg" alt=""></a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a href="#" class="post-date">Jan 02, 2019</a>
-                            <a href="#" class="post-catagory">Event</a>
-                        </div>
-                        <!-- Post Title -->
-                        <a href="#" class="post-title">What If Let You Run The Hubble</a>
-                        <p>My point here is that if you have no clue for the answers above you probably are not operating a followup.</p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <!-- Single Post Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-area mb-100 wow fadeInUp" data-wow-delay="700ms">
-                        <a href="#" class="post-thumbnail"><img src="img/bg-img/4.jpg" alt=""></a>
-                        <!-- Post Meta -->
-                        <div class="post-meta">
-                            <a href="#" class="post-date">Jan 02, 2019</a>
-                            <a href="#" class="post-catagory">Event</a>
-                        </div>
-                        <!-- Post Title -->
-                        <a href="#" class="post-title">Six Pack Abs The Big Picture</a>
-                        <p>Some good steps to take to ensure you are getting what you need out of a autoresponder include…</p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Blog Area End -->
-
-    <!-- Call To Action Area Start -->
-    <section class="roberto-cta-area">
-        <div class="container">
-            <div class="cta-content bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/1.jpg);">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-7">
-                        <div class="cta-text mb-50">
-                            <h2>Contact us now!</h2>
-                            <h6>Contact (+12) 345-678-9999 to book directly or for advice</h6>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-5 text-right">
-                        <a href="#" class="btn roberto-btn mb-50">Contact Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Call To Action Area End -->
-
-    <!-- Partner Area Start -->
-    <div class="partner-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="partner-logo-content d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="300ms">
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="img/core-img/p1.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="img/core-img/p2.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="img/core-img/p3.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="img/core-img/p4.png" alt=""></a>
-                        <!-- Single Partner Logo -->
-                        <a href="#" class="partner-logo"><img src="img/core-img/p5.png" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Partner Area End -->
-
-    <!-- Footer Area Start -->
-    <footer class="footer-area section-padding-80-0">
-        <!-- Main Footer Area -->
-        <div class="main-footer-area">
-            <div class="container">
-                <div class="row align-items-baseline justify-content-between">
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-80">
-                            <!-- Footer Logo -->
-                            <a href="#" class="footer-logo"><img src="img/core-img/logo2.png" alt=""></a>
-
-                            <h4>+12 345-678-9999</h4>
-                            <span>Info.colorlib@gmail.com</span>
-                            <span>856 Cordia Extension Apt. 356, Lake Deangeloburgh, South Africa</span>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-80">
-                            <!-- Widget Title -->
-                            <h5 class="widget-title">Our Blog</h5>
-
-                            <!-- Single Blog Area -->
-                            <div class="latest-blog-area">
-                                <a href="#" class="post-title">Freelance Design Tricks How</a>
-                                <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> Jan 02, 2019</span>
-                            </div>
-
-                            <!-- Single Blog Area -->
-                            <div class="latest-blog-area">
-                                <a href="#" class="post-title">Free Advertising For Your Online</a>
-                                <span class="post-date"><i class="fa fa-clock-o" aria-hidden="true"></i> Jan 02, 2019</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-4 col-lg-2">
-                        <div class="single-footer-widget mb-80">
-                            <!-- Widget Title -->
-                            <h5 class="widget-title">Links</h5>
-
-                            <!-- Footer Nav -->
-                            <ul class="footer-nav">
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> About Us</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Our Room</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Career</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> FAQs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Single Footer Widget Area -->
-                    <div class="col-12 col-sm-8 col-lg-4">
-                        <div class="single-footer-widget mb-80">
-                            <!-- Widget Title -->
-                            <h5 class="widget-title">Subscribe Newsletter</h5>
-                            <span>Subscribe our newsletter gor get notification about new updates.</span>
-
-                            <!-- Newsletter Form -->
-                            <form action="index.html" class="nl-form">
-                                <input type="email" class="form-control" placeholder="Enter your email...">
-                                <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Copywrite Area -->
-        <div class="container">
-            <div class="copywrite-content">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-8">
-                        <!-- Copywrite Text -->
-                        <div class="copywrite-text">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <!-- Social Info -->
-                        <div class="social-info">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Area End -->
-
-    <!-- **** All JS Files ***** -->
-    <!-- jQuery 2.2.4 -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Popper -->
-    <script src="js/popper.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- All Plugins -->
-    <script src="js/roberto.bundle.js"></script>
-    <!-- Active -->
-    <script src="js/default-assets/active.js"></script>
-
-</body>
-
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
